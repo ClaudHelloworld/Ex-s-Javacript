@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TabuadaEx18</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		
+		var n = 0;
+		var z = 0;
+	
+			var passo;
+			var x = 0;
+		 			
+			n = prompt("Digite um valor inteiro");
+			z = prompt("Digite o Segundo valor inteiro");
+
+			  if(n>z || z>n){
+			  	var y = n-z;
+			  	if (y%2) {
+			  	 x = y; 
+			  	}
+            }
+    
+
+
+			document.write("O intervalo impar é <br> ", + x);
+	
+	</script>
+
+</body>
+</html>
