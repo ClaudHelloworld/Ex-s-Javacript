@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TabuadaEx18</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		
+		var n = 0;
+		var nv = prompt("Quantas numeros quer entrar?");
+	
+			var passo;
+			var x = 0;
+			var posicao = 0;
+
+			for (var passo = 0; passo < nv; passo++) {
+ 			
+			n = prompt("Digite um valor inteiro");
+
+			  if(n > x){
+    			x = n;
+    			posicao = passo + 1;
+            }
+        }
+
+			document.write("O maior numero foi <br> ", + x);
+			document.write("<hr>A posição <br>", + posicao);
+	
+	</script>
+
+</body>
+</html>
